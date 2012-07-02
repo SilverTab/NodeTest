@@ -1,0 +1,365 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7C34429A15A0B4B3003E43D4 /* NoddyThread.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7C34429915A0B4B3003E43D4 /* NoddyThread.mm */; };
+		7C34429D15A0BAF0003E43D4 /* chocolat.js in Sources */ = {isa = PBXBuildFile; fileRef = 7C34429C15A0BAF0003E43D4 /* chocolat.js */; };
+		7C3442A015A0BEAE003E43D4 /* libcrypto.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C34429F15A0BEAE003E43D4 /* libcrypto.dylib */; };
+		7C3442A215A0BEB5003E43D4 /* libssl.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 7C3442A115A0BEB5003E43D4 /* libssl.dylib */; };
+		7CFBC6771591004500B5E932 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFBC6761591004500B5E932 /* Cocoa.framework */; };
+		7CFBC6811591004500B5E932 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7CFBC67F1591004500B5E932 /* InfoPlist.strings */; };
+		7CFBC6831591004500B5E932 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBC6821591004500B5E932 /* main.m */; };
+		7CFBC6871591004500B5E932 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 7CFBC6851591004500B5E932 /* Credits.rtf */; };
+		7CFBC68A1591004500B5E932 /* WinesAppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 7CFBC6891591004500B5E932 /* WinesAppDelegate.mm */; };
+		7CFBC68D1591004600B5E932 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7CFBC68B1591004600B5E932 /* MainMenu.xib */; };
+		7CFBC699159101AD00B5E932 /* libnode.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CFBC697159101AD00B5E932 /* libnode.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7C34429B15A0BAC1003E43D4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 12;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		7C34429815A0B4B3003E43D4 /* NoddyThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NoddyThread.h; sourceTree = "<group>"; };
+		7C34429915A0B4B3003E43D4 /* NoddyThread.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = NoddyThread.mm; sourceTree = "<group>"; };
+		7C34429C15A0BAF0003E43D4 /* chocolat.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = chocolat.js; sourceTree = "<group>"; };
+		7C34429F15A0BEAE003E43D4 /* libcrypto.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libcrypto.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libcrypto.dylib; sourceTree = DEVELOPER_DIR; };
+		7C3442A115A0BEB5003E43D4 /* libssl.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libssl.dylib; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.7.sdk/usr/lib/libssl.dylib; sourceTree = DEVELOPER_DIR; };
+		7CFBC6721591004500B5E932 /* NodeTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NodeTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7CFBC6761591004500B5E932 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		7CFBC6791591004500B5E932 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		7CFBC67A1591004500B5E932 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		7CFBC67B1591004500B5E932 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7CFBC67E1591004500B5E932 /* NodeTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "NodeTest-Info.plist"; sourceTree = "<group>"; };
+		7CFBC6801591004500B5E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7CFBC6821591004500B5E932 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7CFBC6841591004500B5E932 /* NodeTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NodeTest-Prefix.pch"; sourceTree = "<group>"; };
+		7CFBC6861591004500B5E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		7CFBC6881591004500B5E932 /* WinesAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WinesAppDelegate.h; sourceTree = "<group>"; };
+		7CFBC6891591004500B5E932 /* WinesAppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WinesAppDelegate.mm; sourceTree = "<group>"; };
+		7CFBC68C1591004600B5E932 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		7CFBC697159101AD00B5E932 /* libnode.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libnode.a; path = NodeTest/libnode.a; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7CFBC66F1591004500B5E932 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7C3442A215A0BEB5003E43D4 /* libssl.dylib in Frameworks */,
+				7C3442A015A0BEAE003E43D4 /* libcrypto.dylib in Frameworks */,
+				7CFBC699159101AD00B5E932 /* libnode.a in Frameworks */,
+				7CFBC6771591004500B5E932 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7CFBC6671591004500B5E932 = {
+			isa = PBXGroup;
+			children = (
+				7C3442A115A0BEB5003E43D4 /* libssl.dylib */,
+				7C34429F15A0BEAE003E43D4 /* libcrypto.dylib */,
+				7CFBC697159101AD00B5E932 /* libnode.a */,
+				7CFBC67C1591004500B5E932 /* NodeTest */,
+				7CFBC6751591004500B5E932 /* Frameworks */,
+				7CFBC6731591004500B5E932 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7CFBC6731591004500B5E932 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBC6721591004500B5E932 /* NodeTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7CFBC6751591004500B5E932 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBC6761591004500B5E932 /* Cocoa.framework */,
+				7CFBC6781591004500B5E932 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7CFBC6781591004500B5E932 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBC6791591004500B5E932 /* AppKit.framework */,
+				7CFBC67A1591004500B5E932 /* CoreData.framework */,
+				7CFBC67B1591004500B5E932 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		7CFBC67C1591004500B5E932 /* NodeTest */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBC6881591004500B5E932 /* WinesAppDelegate.h */,
+				7CFBC6891591004500B5E932 /* WinesAppDelegate.mm */,
+				7CFBC68B1591004600B5E932 /* MainMenu.xib */,
+				7CFBC67D1591004500B5E932 /* Supporting Files */,
+				7C34429815A0B4B3003E43D4 /* NoddyThread.h */,
+				7C34429915A0B4B3003E43D4 /* NoddyThread.mm */,
+				7C34429C15A0BAF0003E43D4 /* chocolat.js */,
+			);
+			path = NodeTest;
+			sourceTree = "<group>";
+		};
+		7CFBC67D1591004500B5E932 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7CFBC67E1591004500B5E932 /* NodeTest-Info.plist */,
+				7CFBC67F1591004500B5E932 /* InfoPlist.strings */,
+				7CFBC6821591004500B5E932 /* main.m */,
+				7CFBC6841591004500B5E932 /* NodeTest-Prefix.pch */,
+				7CFBC6851591004500B5E932 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7CFBC6711591004500B5E932 /* NodeTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7CFBC6901591004600B5E932 /* Build configuration list for PBXNativeTarget "NodeTest" */;
+			buildPhases = (
+				7CFBC66E1591004500B5E932 /* Sources */,
+				7CFBC66F1591004500B5E932 /* Frameworks */,
+				7CFBC6701591004500B5E932 /* Resources */,
+				7C34429B15A0BAC1003E43D4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NodeTest;
+			productName = NodeTest;
+			productReference = 7CFBC6721591004500B5E932 /* NodeTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7CFBC6691591004500B5E932 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = Wines;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Jean-Nicolas Jolivet";
+			};
+			buildConfigurationList = 7CFBC66C1591004500B5E932 /* Build configuration list for PBXProject "NodeTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7CFBC6671591004500B5E932;
+			productRefGroup = 7CFBC6731591004500B5E932 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7CFBC6711591004500B5E932 /* NodeTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7CFBC6701591004500B5E932 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFBC6811591004500B5E932 /* InfoPlist.strings in Resources */,
+				7CFBC6871591004500B5E932 /* Credits.rtf in Resources */,
+				7CFBC68D1591004600B5E932 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7CFBC66E1591004500B5E932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7CFBC6831591004500B5E932 /* main.m in Sources */,
+				7CFBC68A1591004500B5E932 /* WinesAppDelegate.mm in Sources */,
+				7C34429A15A0B4B3003E43D4 /* NoddyThread.mm in Sources */,
+				7C34429D15A0BAF0003E43D4 /* chocolat.js in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7CFBC67F1591004500B5E932 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFBC6801591004500B5E932 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7CFBC6851591004500B5E932 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFBC6861591004500B5E932 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		7CFBC68B1591004600B5E932 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7CFBC68C1591004600B5E932 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7CFBC68E1591004600B5E932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		7CFBC68F1591004600B5E932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		7CFBC6911591004600B5E932 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeTest/NodeTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/NodeTest/node-headers/src\"",
+					"\"$(SRCROOT)/NodeTest/node-headers/deps/uv/include\"",
+					"\"$(SRCROOT)/NodeTest/node-headers/deps/v8/include\"",
+				);
+				INFOPLIST_FILE = "NodeTest/NodeTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Downloaded Projects/kod/build/Debug/nodejs\"",
+					"\"$(SRCROOT)/NodeTest\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-fobjc-gc-only";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7CFBC6921591004600B5E932 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "NodeTest/NodeTest-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"$(SRCROOT)/NodeTest/node-headers/src\"",
+					"\"$(SRCROOT)/NodeTest/node-headers/deps/uv/include\"",
+					"\"$(SRCROOT)/NodeTest/node-headers/deps/v8/include\"",
+				);
+				INFOPLIST_FILE = "NodeTest/NodeTest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../Downloaded Projects/kod/build/Debug/nodejs\"",
+					"\"$(SRCROOT)/NodeTest\"",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_CFLAGS = "-fobjc-gc-only";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.7;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7CFBC66C1591004500B5E932 /* Build configuration list for PBXProject "NodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFBC68E1591004600B5E932 /* Debug */,
+				7CFBC68F1591004600B5E932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7CFBC6901591004600B5E932 /* Build configuration list for PBXNativeTarget "NodeTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7CFBC6911591004600B5E932 /* Debug */,
+				7CFBC6921591004600B5E932 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7CFBC6691591004500B5E932 /* Project object */;
+}
